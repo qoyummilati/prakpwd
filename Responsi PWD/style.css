@@ -1,0 +1,323 @@
+
+.login-page {
+  width: 360px;
+
+  padding: 8% 0 0;
+
+  margin: auto;
+}
+
+.form {
+  position: relative;
+
+  z-index: 1;
+
+  background: #ffffff;
+
+  max-width: 360px;
+
+  margin: 0 auto 100px;
+
+  padding: 45px;
+
+  text-align: center;
+
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form .error {
+  color: #ffffff;
+
+  background: #ef3b3a;
+
+  border: 0;
+
+  margin: 0 0 15px;
+
+  padding: 15px;
+}
+
+.form .success {
+  color: #ffffff;
+
+  background: #0b0031;
+
+  border: 0;
+
+  margin: 0 0 15px;
+
+  padding: 15px;
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+
+  outline: 0;
+
+  background: #f2f2f2;
+
+  width: 100%;
+
+  border: 0;
+
+  margin: 0 0 15px;
+
+  padding: 15px;
+
+  box-sizing: border-box;
+
+  font-size: 14px;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+
+  text-transform: uppercase;
+
+  outline: 0;
+
+  background: #170263;
+
+  width: 100%;
+
+  border: 0;
+
+  padding: 15px;
+
+  color: #ffffff;
+
+  font-size: 14px;
+
+  -webkit-transition: all 0.3 ease;
+
+  transition: all 0.3 ease;
+
+  cursor: pointer;
+}
+
+button:hover,
+button:active,
+button:focus {
+  background: #0b0031;
+}
+
+.form .message {
+  margin: 15px 0 0;
+
+  color: #b3b3b3;
+
+  font-size: 12px;
+}
+
+.form .message a {
+  color: #0b0031;
+
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+
+  z-index: 1;
+
+  max-width: 300px;
+
+  margin: 0 auto;
+}
+
+.container:before,
+.container:after {
+  content: "";
+
+  display: block;
+
+  clear: both;
+}
+
+.container .info {
+  margin: 50px auto;
+
+  text-align: center;
+}
+
+.container .info h1 {
+  margin: 0 0 15px;
+
+  padding: 0;
+
+  font-size: 36px;
+
+  font-weight: 300;
+
+  color: #1a1a1a;
+}
+
+.container .info span {
+  color: #4d4d4d;
+
+  font-size: 12px;
+}
+
+.container .info span a {
+  color: #000000;
+
+  text-decoration: none;
+}
+
+.container .info span .fa {
+  color: #ef3b3a;
+}
+
+body {
+  background: #ffffff;
+
+  /* fallback for old browsers */
+
+  background: -webkit-linear-gradient(right, #ffffff, #ffffff);
+
+  background: -moz-linear-gradient(right, #ffffff, #ffffff);
+
+  background: -o-linear-gradient(right, #ffffff, #ffffff);
+
+  background: linear-gradient(to left, #ffffff, #ffffff);
+
+  font-family: "Roboto", sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.bg {
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to right , #9FA5D5 ,#E8F5C8);
+}
+.layout1{
+	width: 1000px;
+	height: 500px;
+	background-image: url("bangunan.png");
+	margin: auto;
+	margin-top: 65px;
+}
+.header{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+}
+.header p{
+	font-family: times new roman;
+	font-family: 15px;
+	font-weight: bold;
+	color: white;
+	padding-top: 18px;
+}
+#runningtext{
+	width: 100%;
+	height: 25px;
+	padding-top: 7px;
+	margin: 5px 0 5px 0;
+	background-color: maroon;
+	color: white;
+	position: relative;
+	margin-top: 0px;	
+	font-family: algerian;
+}
+.layout2 {
+	width: 100%;
+	height: 40;
+	background-color: maroon;
+	position: relative;
+	background-color: white;
+	padding-left: 10px;
+}
+.layout2 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.layout2 ul li{
+	float: left;
+}
+.layout2 ul li a{
+	float: left;
+	color: #d4d4d4;
+	padding: 12px 20px;
+	text-decoration: none;
+	background: maroon;
+	border-left: 1px solid #3C4042;
+	border-right: 1px solid #3C4042;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.6);
+	font-weight: bold;
+	font-size: 15px;
+}
+.layout2 ul li a:hover{
+	color: white;
+	background: #3C4042;
+}
+.datadata{
+	margin-left: 95px;
+	margin-top: 10px;
+}
+.container {
+	font-family: algerian;
+	font-weight: bold;
+	font-size: 38px;
+}
+.footer {
+	color: white;
+	width: 100%;
+	height: 20px;
+	background-color: black;
+	color: white;
+	font-size: 10px;
+}
+.bodytransaksi {
+	text-align: center;
+	background: linear-gradient(to right , #9FA5D5 ,#E8F5C8);
+}
+.bodytambahtransaksi {
+	text-align: center;
+	background: linear-gradient(to right , #9FA5D5 ,#E8F5C8);
+}
+.bodydatapembeli {
+	background: linear-gradient(to right , #9FA5D5 ,#E8F5C8);
+}
+.bodyubahdatatransaksi {
+	background: linear-gradient(to right , #9FA5D5 ,#E8F5C8);
+}
+
+.tabeltambahdatatransaksi {
+	margin: auto;
+	font-family: times new roman;
+	font-weight: bold;
+
+}
+.tabelubahdatatransaksi{
+	margin: auto;
+	font-weight: bold;
+	font-family: arial;
+
+}
+.tabeldatajual{
+	margin: auto;
+	font-weight: bold;;
+	font-family: new times roman;
+}
+.tabeltransaksi {
+	margin: auto;
+	border: 2 solid black;
+	font-weight: bold;
+}
+
+
+.lagout2 {
+width: 170px; 
+height: 45px; margin-top: 50px; 
+text-decoration: none; 
+font-size: 14px; 
+font-weight: bold;
+}
+
+

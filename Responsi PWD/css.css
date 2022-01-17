@@ -1,0 +1,23 @@
+.bodydatapembeli{
+	background: linear-gradient(to right , #9FA5D5 ,#E8F5C8);
+}
+
+.formtambahdatapembeli {
+	margin: auto;
+	font-family: times new roman;
+	font-weight: bold;
+
+}
+.bodytambahdatapembeli{
+	background: linear-gradient(to right , #9FA5D5 ,#E8F5C8);
+}
+.container1{
+	text-align: center;
+	font-weight: bold;
+}
+.container2{
+	font-weight: bold;
+}
+.bodylogin {
+	background: linear-gradient(to right , #9FA5D5 ,#E8F5C8);
+}

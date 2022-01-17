@@ -1,0 +1,27 @@
+.bodyjdatajual {
+	background: linear-gradient(to right , #9FA5D5 ,#E8F5C8);
+}
+.tabeldatajual {
+	margin: auto;
+	color: white;
+	text-align: center;
+}
+.tabeltambah {
+	margin: auto;
+	color: white;
+	font-family: arial;
+}
+.bodytambahjual{
+	background: linear-gradient(to right , #9FA5D5 ,#E8F5C8);
+}
+.bodypembeli {
+	background: linear-gradient(to right , #9FA5D5 ,#E8F5C8);
+}
+.tabelpembeli {
+	margin: auto;
+	color: black;
+	font-weight: bold;
+}
+.bodypembeli {
+	background-color: lightblue;
+}
